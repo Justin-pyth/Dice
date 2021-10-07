@@ -17,7 +17,8 @@ header {
 }
 
 footer {
-	font-style: italic, bold;
-	font-size: 90%;
+	font-style: italic;
+	font-style: bold;
+	font-size: 64px;
 }
 

@@ -19,7 +19,7 @@ void draw(){
   background(0,0,0,0.5);
   for (int j = 0; j < 7; j++){
     for (int i = 0; i < 8; i++){
-      die = new Die(x[i]+dx,y[j]+dy);
+      die = new Die(i,j);
       die.roll();
       die.show();
       sum +=die.roll;
